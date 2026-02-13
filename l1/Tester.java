@@ -10,7 +10,7 @@ public class Tester{
         s1.age = 20;
 
         s2.name = "Bob";
-        s2.id = "5002";
+        
         s2.age = 22;
 
         System.out.println(s1.name); 
