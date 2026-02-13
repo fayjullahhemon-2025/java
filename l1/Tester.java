@@ -12,6 +12,8 @@ public class Tester{
         s2.name = "Bob";
         
         s2.age = 22;
+        Student s3  = new Student();
+        s3 = s2;
 
         System.out.println(s1.name); 
         System.out.println(s1.age); 
@@ -19,6 +21,9 @@ public class Tester{
         System.out.println(s2.name); 
         System.out.println(s2.id); 
         System.out.println(s2.age); 
+        System.out.println(s3.name); 
+        System.out.println(s3.id); 
+        System.out.println(s3.age); 
         
     }
 }
